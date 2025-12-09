@@ -1,0 +1,34 @@
+{
+  "dashboard": {
+    "title": "SRE Demo Dashboard",
+    "panels": [
+      {
+        "title": "Request Rate",
+        "targets": [
+          {
+            "expr": "rate(api_requests_total[1m])"
+          }
+        ],
+        "gridPos": {"h": 8, "w": 12, "x": 0, "y": 0}
+      },
+      {
+        "title": "Error Rate",
+        "targets": [
+          {
+            "expr": "rate(api_errors_total[1m])"
+          }
+        ],
+        "gridPos": {"h": 8, "w": 12, "x": 12, "y": 0}
+      },
+      {
+        "title": "Response Time",
+        "targets": [
+          {
+            "expr": "api_request_duration_seconds"
+          }
+        ],
+        "gridPos": {"h": 8, "w": 24, "x": 0, "y": 8}
+      }
+    ]
+  }
+}
