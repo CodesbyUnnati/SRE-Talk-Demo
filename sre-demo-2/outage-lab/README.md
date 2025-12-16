@@ -70,27 +70,6 @@ Simulated Dependencies (latency)
 | Config Rollout  | ConfigMaps |
 | Failure Type    | Config-driven logic |
 | Traffic         | curl |
-| Audience Level  | Intermediate SRE |
-
----
-
-## 📁 Repository Structure
-
-outage-lab/
-├── app/
-│ ├── main.go # Failure-aware Go service
-│ ├── go.mod
-│ └── Dockerfile
-├── config/
-│ ├── good-config.json
-│ ├── bad-security-rule.json
-│ └── regex-feature.json
-└── k8s/
-├── namespace.yaml
-├── configmap.yaml
-├── deployment.yaml
-└── service.yaml
-
 
 ---
 
