@@ -1,6 +1,6 @@
 # 🚀 SRE Failure Patterns Demo
 
-A hands-on demo to **visually explain how small issues turn into big outages** — perfect for SRE talks, workshops, and live demos.
+A hands-on demo to **visually explain how small issues turn into big outages** 
 
 ---
 
