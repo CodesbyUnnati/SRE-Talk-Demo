@@ -284,20 +284,6 @@ HTML_TEMPLATE = '''
             </div>
         </div>
         
-        <!-- Instructions -->
-        <div class="instructions">
-            <h3>📋 How to Use This Demo</h3>
-            <ol>
-                <li><strong>Test Normal:</strong> Click "Test Single Request" to see healthy system behavior (fast response)</li>
-                <li><strong>Memory Leak:</strong> Enable to simulate CrowdStrike's config issue - watch memory grow and responses slow</li>
-                <li><strong>Slow Queries:</strong> Enable to add 2-5 second delays - simulates database issues</li>
-                <li><strong>Full Cascade:</strong> Enable ALL failures at once - watch the system struggle and fail</li>
-                <li><strong>Reset:</strong> Clear all failures and metrics to start fresh</li>
-            </ol>
-            <p style="margin-top: 15px; padding: 15px; background: #fef3c7; border-radius: 8px;">
-                <strong>💡 Tip:</strong> Start with "Test Single Request" to show normal operation, then progressively enable failures to demonstrate cascading issues.
-            </p>
-        </div>
     </div>
     
     <script>
